@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_update_judul"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Judul Tugas"
+            android:autofillHints="ttle"
+            android:inputType="text"
+            android:background="@drawable/custom_et"
+            android:layout_marginTop="10dp"
+            android:paddingHorizontal="10dp"/>
+
+        <EditText
+            android:id="@+id/et_update_deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Deskripsi"
+            android:autofillHints="description"
+            android:inputType="text"
+            android:background="@drawable/custom_et"
+            android:layout_marginTop="10dp"
+            android:paddingHorizontal="10dp"/>
+
+        <EditText
+            android:id="@+id/et_update_deadline"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Tengat Waktu"
+            android:autofillHints="description"
+            android:inputType="text"
+            android:background="@drawable/custom_et"
+            android:layout_marginTop="10dp"
+            android:paddingHorizontal="10dp"/>
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="input" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
